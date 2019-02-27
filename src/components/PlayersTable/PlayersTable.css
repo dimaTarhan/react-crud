@@ -1,0 +1,14 @@
+tr th{
+    text-align: center;
+    cursor: default;
+}
+
+.htmlSymbol{
+    margin-left: 5px;
+    display: inline;
+    font-size: 12px;
+}
+
+.table_sort:hover{
+    cursor: pointer;
+}

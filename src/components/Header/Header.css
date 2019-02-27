@@ -1,0 +1,16 @@
+.header{
+    background-color: lightgray;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+span:first-child{
+    margin-left: 20px;
+}
+
+.header__buttons{
+    margin-left: auto;
+    margin-right: 20px;
+}

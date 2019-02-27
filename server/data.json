@@ -1,0 +1,215 @@
+{
+  "players": [
+    {
+      "foto": "ter Stegen.jpg",
+      "number": "1",
+      "name": "Mark-Andre",
+      "surname": "ter Stegen",
+      "birthDate": "1992-04-29T21:00:00.000Z",
+      "position": "Keeper"
+    },
+    {
+      "foto": "Cillessen.jpg",
+      "number": "13",
+      "name": "Jasper",
+      "surname": "Cillessen",
+      "birthDate": "1989-04-21T20:00:00.000Z",
+      "position": "Keeper"
+    },
+    {
+      "foto": "Umtiti.jpg",
+      "number": "23",
+      "name": "Samuel",
+      "surname": "Umtiti",
+      "birthDate": "1993-11-10T22:00:00.000Z",
+      "position": "Centre Back"
+    },
+    {
+      "foto": "Pique.jpg",
+      "number": "3",
+      "name": "Gerard",
+      "surname": "Pique",
+      "birthDate": "1987-02-01T21:00:00.000Z",
+      "position": "Centre Back"
+    },
+    {
+      "foto": "Lenglet.jpg",
+      "number": "15",
+      "name": "Clement",
+      "surname": "Lenglet",
+      "birthDate": "1995-07-16T21:00:00.000Z",
+      "position": "Centre Back"
+    },
+    {
+      "foto": "Murillo.jpg",
+      "number": "17",
+      "name": "Jeison",
+      "surname": "Murillo",
+      "birthDate": "1992-05-26T21:00:00.000Z",
+      "position": "Centre Back"
+    },
+    {
+      "foto": "Vermaelen.jpg",
+      "number": "24",
+      "name": "Thomas",
+      "surname": "Vermaelen",
+      "birthDate": "1985-11-13T21:00:00.000Z",
+      "position": "Centre Back"
+    },
+    {
+      "foto": "Alba.jpg",
+      "number": "18",
+      "name": "Jordi",
+      "surname": "Alba",
+      "birthDate": "1989-03-20T21:00:00.000Z",
+      "position": "Left-Back"
+    },
+    {
+      "foto": "Roberto.jpg",
+      "number": "20",
+      "name": "Sergi",
+      "surname": "Roberto",
+      "birthDate": "1992-02-06T22:00:00.000Z",
+      "position": "Right-Back"
+    },
+    {
+      "foto": "Semedo.jpg",
+      "number": "2",
+      "name": "Nelson",
+      "surname": "Semedo",
+      "birthDate": "1993-11-15T22:00:00.000Z",
+      "position": "Right-Back"
+    },
+    {
+      "foto": "Busquets.jpg",
+      "number": "5",
+      "name": "Sergio",
+      "surname": "Busquets",
+      "birthDate": "1988-06-15T20:00:00.000Z",
+      "position": "Defensive Midfield"
+    },
+    {
+      "foto": "Samper.jpg",
+      "number": "16",
+      "name": "Sergi",
+      "surname": "Samper",
+      "birthDate": "1995-01-19T22:00:00.000Z",
+      "position": "Defensive Midfield"
+    },
+    {
+      "foto": "Rakitic.jpg",
+      "number": "4",
+      "name": "Ivan",
+      "surname": "Rakitic",
+      "birthDate": "1988-03-09T21:00:00.000Z",
+      "position": "Central Midfield"
+    },
+    {
+      "foto": "Arthur.jpg",
+      "number": "8",
+      "name": "Arthur",
+      "surname": "",
+      "birthDate": "1996-08-11T21:00:00.000Z",
+      "position": "Central Midfield"
+    },
+    {
+      "foto": "Vidal.jpg",
+      "number": "22",
+      "name": "Arturo",
+      "surname": "Vidal",
+      "birthDate": "1987-05-21T20:00:00.000Z",
+      "position": "Central Midfield"
+    },
+    {
+      "foto": "Rafinha.jpg",
+      "number": "12",
+      "name": "Rafinha",
+      "surname": "",
+      "birthDate": "1993-02-11T22:00:00.000Z",
+      "position": "Central Midfield"
+    },
+    {
+      "foto": "Alena.jpg",
+      "number": "21",
+      "name": "Carles",
+      "surname": "Alena",
+      "birthDate": "1998-01-04T22:00:00.000Z",
+      "position": "Central Midfield"
+    },
+    {
+      "foto": "Coutinho.jpg",
+      "number": "7",
+      "name": "Philippe",
+      "surname": "Coutinho",
+      "birthDate": "1992-07-11T21:00:00.000Z",
+      "position": "Attacking Midfield"
+    },
+    {
+      "foto": "Dembele.jpg",
+      "number": "11",
+      "name": "Ousmane",
+      "surname": "Dembele",
+      "birthDate": "1997-05-14T21:00:00.000Z",
+      "position": "Left Wing"
+    },
+    {
+      "foto": "Messi.jpg",
+      "number": "10",
+      "name": "Lionel",
+      "surname": "Messi",
+      "birthDate": "1987-07-23T20:00:00.000Z",
+      "position": "Right Wing"
+    },
+    {
+      "foto": "Malcom.jpg",
+      "number": "14",
+      "name": "Malcom",
+      "surname": "",
+      "birthDate": "1997-02-25T22:00:00.000Z",
+      "position": "Right Wing"
+    },
+    {
+      "foto": "Suarez.jpg",
+      "number": "9",
+      "name": "Luis",
+      "surname": "Suarez",
+      "birthDate": "1987-01-23T21:00:00.000Z",
+      "position": "Centre Forward"
+    },
+    {
+      "foto": "Boateng.jpg",
+      "number": "19",
+      "name": "Kevin-Prince",
+      "surname": "Boateng",
+      "birthDate": "1987-03-05T21:00:00.000Z",
+      "position": "Centre Forward"
+    },
+    {
+      "name": "Dmytro",
+      "surname": "Tarhan",
+      "birthDate": "2019-02-21",
+      "position": "Keeper",
+      "number": "99",
+      "foto": "Maiboroda.jpg",
+      "imageFile": {}
+    },
+    {
+      "name": "Dmytro",
+      "surname": "Tarhan",
+      "birthDate": "1993-10-22",
+      "position": "Keeper",
+      "number": "98",
+      "foto": "Maiboroda.jpg",
+      "imageFile": {}
+    },
+    {
+      "name": "Marat",
+      "surname": "Pliev",
+      "birthDate": "2016-10-22",
+      "position": "Keeper",
+      "number": "111",
+      "foto": "Maiboroda.jpg",
+      "imageFile": {}
+    }
+  ]
+}

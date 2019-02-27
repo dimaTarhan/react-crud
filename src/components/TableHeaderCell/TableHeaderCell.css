@@ -1,0 +1,19 @@
+.table-header-cell {
+    display: flex;
+}
+
+.table-header-cell__arrow {
+    color: gray;
+}
+
+.table-header-cell__arrows{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    margin-left: 10px;
+}
+
+.table-header-cell__arrow_active {
+    color: black;
+}

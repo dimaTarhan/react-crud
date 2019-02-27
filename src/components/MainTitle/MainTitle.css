@@ -1,0 +1,19 @@
+.mainTitle{
+    background-color: #FFC941;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    border-bottom: 5px solid red;
+}
+
+.mainTitle img{
+    width: 150px;
+    height: 150px;
+}
+
+.mainTitle span{
+    margin-left: 50px;
+    font-size: 80px;
+    font-weight: bold;
+}

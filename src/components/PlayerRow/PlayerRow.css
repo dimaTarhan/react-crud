@@ -1,0 +1,35 @@
+.table_foto{
+    width: 15%;
+}
+
+.table_foto img{
+    width: 139px;
+    height: 181px;
+}
+
+.table_number{
+    width: 2%;
+    padding: 0;
+}
+
+.table_name{
+    width: 15%;
+}
+
+.table_surname{
+    width: 15%;
+}
+
+.table_age{
+    width: 10%;
+}
+
+.buttons_container{
+    width: 15%;
+}
+
+tr td{
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle !important;
+}
