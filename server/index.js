@@ -45,9 +45,7 @@ app.post('/players', upload.single('foto'), function (req, res) {
     function searchNumber(playersArr) {
         let isNumberFree = true;
 
-        if (Number(newPlayer.number) > 99){
-            newPlayer.number = "1";
-        } else if (Number(newPlayer.number) < 1){
+        if (Number(newPlayer.number) > 99 || Number(newPlayer.number) < 1){
             newPlayer.number = "1";
         }
 
