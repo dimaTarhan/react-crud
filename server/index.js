@@ -39,23 +39,37 @@ app.get('/players', (request, response) => {
 });
 
 app.post('/players', upload.single('foto'), function (req, res) {
-    const newPlayer = req.body;
+    let newPlayer = req.body;
+    console.log(newPlayer);
 
-    function searchNumber (playersArr) {
+    function searchNumber(playersArr) {
+        let isNumberFree = true;
+
+        if (Number(newPlayer.number) > 99){
+            newPlayer.number = "1";
+        } else if (Number(newPlayer.number) < 1){
+            newPlayer.number = "1";
+        }
+
         [...playersArr].forEach((onePlayer) => {
-            if (Number(onePlayer.number) === Number(newPlayer.player.number)) {
-                newPlayer.player.number = String(Number(newPlayer.player.number) + 1);
-
-                searchNumber (playersArr);
+            if (onePlayer.number === newPlayer.number) {
+                isNumberFree = false;
             }
         });
+
+        console.log(isNumberFree);
+
+        if (!isNumberFree){
+            newPlayer.number = String(Number(newPlayer.number) + 1);
+            searchNumber(playersArr);
+        }
     }
 
-    console.log(newPlayer.player.name);
-    if (newPlayer.player.name){
-        searchNumber(db.get('players'));
-        db.get('players')
-            .push(newPlayer.player)
+    if (newPlayer.name){
+        let allPlayers = db.get('players');
+        searchNumber(allPlayers);
+        allPlayers
+            .push(newPlayer)
             .write();
         res.end();
     } else {

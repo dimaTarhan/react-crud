@@ -22,7 +22,12 @@ export class NewPlayer extends React.Component {
             formData[element.name] = element.value;
         });
 
-        formData.foto = imgFile.name;
+        if(imgFile.name){
+            formData.foto = imgFile.name;
+        } else {
+            formData.foto = formData.name;
+        }
+
         formData.imageFile = imgFile;
 
         this.props.addPlayer(formData);
@@ -42,7 +47,7 @@ export class NewPlayer extends React.Component {
                             <Col>
                                 <Form.Label>First Name</Form.Label>
                                 <Col>
-                                    <Form.Control type="text" placeholder="First Name" name="name"/>
+                                    <Form.Control type="text" placeholder="First Name" name="name" required/>
                                 </Col>
                             </Col>
                             <Col>

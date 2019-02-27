@@ -45,7 +45,7 @@ export class AppBackend {
                 'Accept':'application/json',
                 'Content-Type':'application/json'
             },
-            body: JSON.stringify({player})
+            body: JSON.stringify(player)
         });
     }
 }

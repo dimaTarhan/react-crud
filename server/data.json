@@ -183,33 +183,6 @@
       "surname": "Boateng",
       "birthDate": "1987-03-05T21:00:00.000Z",
       "position": "Centre Forward"
-    },
-    {
-      "name": "Dmytro",
-      "surname": "Tarhan",
-      "birthDate": "2019-02-21",
-      "position": "Keeper",
-      "number": "99",
-      "foto": "Maiboroda.jpg",
-      "imageFile": {}
-    },
-    {
-      "name": "Dmytro",
-      "surname": "Tarhan",
-      "birthDate": "1993-10-22",
-      "position": "Keeper",
-      "number": "98",
-      "foto": "Maiboroda.jpg",
-      "imageFile": {}
-    },
-    {
-      "name": "Marat",
-      "surname": "Pliev",
-      "birthDate": "2016-10-22",
-      "position": "Keeper",
-      "number": "111",
-      "foto": "Maiboroda.jpg",
-      "imageFile": {}
     }
   ]
 }
